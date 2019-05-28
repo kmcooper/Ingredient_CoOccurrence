@@ -55,7 +55,7 @@ my $single_ingredient_foods = 0;
 
 #
 # Subroutine for when ready to add items to the hash
-# Input: an ingredient array (where each ingredient is called an item or $i)
+# Input: an ingredient (called an item or $i)
 # Return: None
 #
 sub make_food_subnetwork{
@@ -66,9 +66,7 @@ sub make_food_subnetwork{
 		for(my $j = $i+1; $j <= $arrsize; $j++){
 			my $node1 = $sorted_foods[$i];	
 			my $node2 = $sorted_foods[$j];
-			$node1 =~ s/\s/\_/gi;
-			$node2 =~ s/\s/\_/gi;
-			my $key = "$node1\t$node2";
+			my $key = "$sorted_foods[$i]\t$sorted_foods[$j]";
 			if(exists $edge_hash{$key}){
 				$edge_hash{$key}++;
 			}else{
@@ -284,10 +282,8 @@ foreach(@foods){
 	if($#ing_arr+1 > 1){
 		make_food_subnetwork(@ing_arr);
 	}else{
-		if($ing_arr[0]){
-			print "$ing_arr[0] not added as it was the only ingredient listed for food $barcode\n";
-			$single_ingredient_foods++;
-		}
+		print "$ing_arr[0] not added as it was the only ingredient listed for food $barcode\n";
+		$single_ingredient_foods++;
 	}
 	@ing_arr = ();
 }
@@ -296,8 +292,7 @@ print "\nA total of $single_ingredient_foods single ingredient foods were found 
 
 open(OUT,">$netfile");
 while (my ($k,$v) = each %edge_hash){
-	$k =~ s/\t/ /gi;
-	print OUT "$k $v\n";
+	print OUT "$k\t$v\n";
 }
 close OUT;
 

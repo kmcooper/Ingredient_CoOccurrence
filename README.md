@@ -144,7 +144,7 @@ ingredients$ingredients_text <-gsub('certified organic','',ingredients$ingredien
 ```
 
 ### 2.1 Remove special letters and characters and replace with standard [a-z] or otherwise
-
+Note: The next few steps of substituting x for y are clearly more of a "brute force" approach for purposes of proof-of-concept. These steps we plan to improve in the future using more sophisticated IR approaches.   
 
 ```python
 ingredients$ingredients_text <-gsub('[éèë]','e',ingredients$ingredients_text)

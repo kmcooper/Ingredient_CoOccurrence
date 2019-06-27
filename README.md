@@ -7,7 +7,9 @@ Last updated: "5/30/2019"
 Output: html_document   
 
 
-The following presents a detailed and reproducible methodology of how the ingredient co-occurrence network from the Open Food Database was created. Please direct any questions, comments, or concerns to kmcooper [at] unomaha [dot] edu.
+The following presents a detailed and reproducible* methodology of how the ingredient co-occurrence network from the Open Food Database was created. Please direct any questions, comments, or concerns to kmcooper [at] unomaha [dot] edu.
+
+*=hopefully
 
 ## 1. Data Download 
 The data used for this analysis was downloaded from https://world.openfoodfacts.org/data on 03-21-2019 at 9:57am as a CSV file. The file folder hierarchy I have set up assumes you are in your home directory and have created a folder called `ingredient_network` with subfolders `ingredient_network/data` and `ingredient_network/code`. All code needed for the `ingredient_network/code` folder is available on the Github.

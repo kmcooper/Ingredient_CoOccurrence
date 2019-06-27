@@ -697,7 +697,7 @@ write.csv(degree(subg),file = paste0("top_",top_x,"_node_degree.txt"))
 ```
 
 ### 4.6 Examine the network with only edge weights >= 2000 (Figure 3)
-The code below will parse the network file for only edge weights >= 2000, analyze it in R with igraph() functions,  and output it to imported into Cytoscape for visualization. We chose to use Cytoscape for network visualization over the plotting capabilities in R only for personal preference for a point-and-click interface at this stage. Some of the network descriptives calculated below are not reported in the manuscript to avoid being long-winded, but they may be of interest or use so we included them here.
+The code below will parse the network file for only edge weights >= 2000, analyze it in R with igraph() functions,  and output it to imported into Cytoscape for visualization. The file for the network as created in Figure 3 is also given as a .cys Cytoscape file under this repo as /data/parsed.cys for users to open and manipulate themselves. We chose to use Cytoscape for network visualization over the plotting capabilities in R only for personal preference for a point-and-click interface at this stage. Some of the network descriptives calculated below are not reported in the manuscript to avoid being long-winded, but they may be of interest or use so we included them here.
 
 
 ```python

@@ -7,7 +7,7 @@ Last updated: "5/30/2019"
 Output: html_document   
 
 
-The following presents a detailed and reproducible* methodology of how the ingredient co-occurrence network from the Open Food Database was created. Please direct any questions, comments, or concerns to kmcooper [at] unomaha [dot] edu.
+The following presents a detailed and reproducible* methodology of how the ingredient co-occurrence network from the Open Food Database was created. While the code below was not used to generate all the tables and figures in the manuscript, it was used to generate a majority of them. The code used to generate specific tables and figures is noted where applicable. Please direct any questions, comments, or concerns to kmcooper [at] unomaha [dot] edu.
 
 *=hopefully
 

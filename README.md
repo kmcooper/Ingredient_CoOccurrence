@@ -672,7 +672,7 @@ graph.density(subg)
 ```
 
 ### 4.5 Examine the network with only top 20 nodes (Figure 2)
-The code below will retrieve the top 20 nodes by degree, create the induced subgraph, and print it out to be imported into Cytoscape for visualization. We chose to use Cytoscape for network visualization over the plotting capabilities in R only for personal preference for a point-and-click interface at this stage.
+The code below will retrieve the top 20 nodes by degree, create the induced subgraph, and print it out to be imported into Cytoscape for visualization. The file for the network as created in Figure 2 is also given as a .cys Cytoscape file under this repo as /data/top20.cys for users to open and manipulate themselves. We chose to use Cytoscape for network visualization over the plotting capabilities in R only for personal preference for a point-and-click interface at this stage. 
 
 
 ```python

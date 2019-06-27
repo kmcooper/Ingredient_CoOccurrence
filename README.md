@@ -34,11 +34,11 @@ You will need to set each of the following variables:
 #
 
 #Preferred working directory
-workingDir = "/Users/katedempsey/Documents/Research/UNO/CooperLab/ingredient_network/"
+workingDir = "~/ingredient_network/"
 
 #Where data and code are stored
-dataDir = "/Users/katedempsey/Documents/Research/UNO/CooperLab/ingredient_network/data/"
-codeDir = "/Users/katedempsey/Documents/Research/UNO/CooperLab/ingredient_network/code/"
+dataDir = "~/ingredient_network/data/"
+codeDir = "~/ingredient_network/code/"
 
 #Names you would like to give these files, including
 # The ingredients file output from the R script (after pre-processing)

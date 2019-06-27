@@ -2,8 +2,8 @@
 # The Ingredient Co-occurrence Network of packaged foods distributed in the United States
 Title: "Open Food Database: Ingredient Co-Occurence Network"  
 Author: "Kate Cooper"  
-Creation date: "2/28/2019"  
-Last updated: "5/30/2019"  
+Creation date: "Feb-28-2019"  
+Last updated: "Jun-27-2019"  
 Output: html_document   
 
 

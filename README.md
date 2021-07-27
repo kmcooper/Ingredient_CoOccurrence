@@ -12,6 +12,8 @@ The following presents a detailed and reproducible* methodology of how the ingre
 
 *=hopefully
 
+This work has been reproduced using the USDA Food Data Central database (and converting my Perl scripts to Python) by Ricky Flores and can be found here: https://github.com/r-flores/Ingredient_Classification
+
 
 
 ## 1. Data Download 

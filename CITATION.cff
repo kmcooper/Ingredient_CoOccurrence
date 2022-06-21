@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Kathryn Cooper"
+  given-names: "Kate Cooper"
+  orcid: "https://orcid.org/0000-0002-6341-9648"
+title: "The ingredient co-occurrence network of packaged foods distributed in the United States"
+version: 1.0.0
+doi: 10.1016/j.jfca.2019.103391
+date-released: 2019-12-14
+url: "https://github.com/kmcooper/Ingredient_CoOccurrence"

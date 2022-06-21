@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Kathryn Cooper"
-  given-names: "Kate Cooper"
+- family-names: "Cooper"
+  given-names: "Kate"
   orcid: "https://orcid.org/0000-0002-6341-9648"
 title: "The ingredient co-occurrence network of packaged foods distributed in the United States"
 version: 1.0.0
